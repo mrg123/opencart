@@ -1,0 +1,40 @@
+<modification>
+	<id>hj_onepage</id>
+	<version>0.3</version>
+	<vqmver>2.3.2</vqmver>
+	<author>zjy</author>
+
+	<file name="catalog/controller/module/cart.php">
+		<operation>
+			<search position="replace"><![CDATA[
+				checkout/checkout
+			]]></search>
+			<add><![CDATA[
+				onepage/checkout
+			]]></add>
+		</operation>
+	</file>
+
+	<file name="catalog/controller/common/header.php">
+		<operation>
+			<search position="replace"><![CDATA[
+				checkout/checkout
+			]]></search>
+			<add><![CDATA[
+				onepage/checkout
+			]]></add>
+		</operation>
+	</file>
+
+	<file name="catalog/controller/checkout/cart.php">
+		<operation>
+			<search position="replace"><![CDATA[
+				checkout/checkout
+			]]></search>
+			<add><![CDATA[
+				onepage/checkout
+			]]></add>
+		</operation>
+	</file>
+
+</modification>
