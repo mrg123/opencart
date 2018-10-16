@@ -1,0 +1,1 @@
+2018-10-09 13:27:35 - PHP Warning:  Cannot modify header information - headers already sent in D:\git\opencart\oc3020\system\framework.php on line 108
